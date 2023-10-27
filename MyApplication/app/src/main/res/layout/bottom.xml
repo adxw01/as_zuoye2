@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="#0B0B0B"
+    android:baselineAligned="false"
+    android:gravity="center|center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/bottom_mama_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center|center_horizontal"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bottom_mama_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/mama" />
+        <!--            tools:srcCompat="@drawable/Zhengzhou" />-->
+
+        <TextView
+            android:id="@+id/bottom_mama_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="妈妈"
+            android:textColor="#FBFBFB"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_jiejie_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bottom_jiejie_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/jiejie"
+            tools:srcCompat="@drawable/jiejie" />
+
+        <TextView
+            android:id="@+id/bottom_jiejie_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="姐姐"
+            android:textColor="#FBFAFA"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_tab_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bottom_tab_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/tab"
+            tools:srcCompat="@drawable/tab" />
+
+        <TextView
+            android:id="@+id/bottom_tab_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="戳我"
+            android:textColor="#FBFAFA"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_laopo_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bottom_laopo_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/laopo"
+            tools:srcCompat="@drawable/laopo" />
+
+        <TextView
+            android:id="@+id/bottom_laopo_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="老婆"
+            android:textColor="#FBF8F8"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom_nver_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/bottom_nver_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/black"
+            android:clickable="false"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/nver"
+            tools:srcCompat="@drawable/nver" />
+
+        <TextView
+            android:id="@+id/bottom_nver_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="女儿"
+            android:textColor="#FAF8F8"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+</LinearLayout>

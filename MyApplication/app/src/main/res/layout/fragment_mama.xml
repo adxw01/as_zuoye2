@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".mamaFragment">
+    <!--    tools:context=".wechatFragment"-->
+
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="只要有你在，只要你微笑，那就是幸福。明明感到不安，却能够安心。只要有你在，光是并肩走路，我都觉得高兴。"
+        android:textSize="48sp" />
+
+</LinearLayout>
